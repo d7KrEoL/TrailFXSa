@@ -1,9 +1,9 @@
 ## Lua-скрипт TrailFX для Grand Theft Auto San Andreas Multiplayer
 Добавляет дымы/инверсионный след любым самолётам.
 
-![JetTrailSanAndreas](images/Screen01SampTrailFX.png)
+![JetTrailSanAndreas](images/Screen03SampTrailFX.png)
 ![PlaneTrailSanAndreas](images/Screen02SampTrailFX.png)
-![ConTrailSanAndreas](images/Screen03SampTrailFX.png)
+![ConTrailSanAndreas](images/Screen01SampTrailFX.png)
 ![VaporTrailSanAndreas](images/Screen04SampTrailFX.png)
 
 ## Зависимости
