@@ -8,8 +8,8 @@
 
 ## Зависимости
 
-    1. [Moonloader](https://www.blast.hk/moonloader/download.php)
-    2. [Sampfuncs](https://www.blast.hk/threads/17/)
+1. [Moonloader](https://www.blast.hk/moonloader/download.php)
+2. [Sampfuncs](https://www.blast.hk/threads/17/)
 
 ## Установка.
 1. Скопировать [скрипт](moonloader/TrailFX.lua) в `папку с игрой/moonloader/TrailFX.lua`.

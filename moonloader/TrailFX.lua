@@ -9,7 +9,7 @@ local dbCars
 local SmokeHistory
 local CarTimeout
 local IsActive
-local Ver = "0.0.3-dev.0511"
+local Ver = "0.0.3-dev.0611"
 local IsSmokeEnabled
 
 script_name("TrailFX")
@@ -74,7 +74,7 @@ function TrailFXCommand(args)
 	if args == nil or #args < 1 then
 		EffectSwitch()
 	elseif #args < 2 then
-		local id = tonumber(args[1])
+		local id = tonumber(args)
 		if (id == nil) then 
 			print("Syntax: /trailfx [*(optional)player id]")
 			return;

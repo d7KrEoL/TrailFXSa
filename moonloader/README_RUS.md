@@ -1,5 +1,6 @@
 ## TrailFX lua скрипт
 Горячая клавиша запуска/деактивации скрипта: `G`. Можно изменить в коде скрипта, в функции `OnUpdateKeys()`:
+
 ```lua
 function OnUpdateKeys()
 	if isKeyJustPressed(keys.VK_G) then -- Менять здесь. Например для клавиши 'H' нужно VK_G заменить на VK_H
