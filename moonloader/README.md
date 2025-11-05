@@ -20,8 +20,8 @@ Each entry in the table has the following format:
 ```lua
 dbOffset 
 { 
-    particleName1 = string "effect name 1 (FXSystem)", 
-    particleName2 = string "effect name 2 (FXSystem)", 
+    particleName1 = string "Trail_effect_name_1 (FXSystem)", 
+    particleName2 = string "Trail_effect_name_2 (FXSystem)", 
     modelID = int vehicle_model, 
     x1 = float effect_1_X_offset, 
     y1 = float effect_1_Y_offset, 
@@ -30,6 +30,23 @@ dbOffset
     y2 = float effect_2_Y_offset, 
     z2 = float effect_2_Z_offset 
 }
+```
+
+If `models/effects.fxp` was updated [like in this instruction](../models/README_RUS.md), there will be available this trails:
+
+```bash
+trail_red_long, # Long red trail, long-living
+trail_green_long, # Long green trail, long-living
+trail_blue_long, # Long blue trail, long-living
+trail_sky_long, # Long sky-white gradient trail, long-living
+trail_black_long, # Long black trail, long-living
+trail_purp_long, # Long purple trail, long-living
+trail_red_short, # Long red trail, short-living
+trail_green_short, # Long green trail, short-living
+trail_blue_short, # Long blue trail, short-living
+trail_sky_short, # Long sky-white gradient trail, short-living
+trail_black_short, # Long black trail, short-living
+trail_purp_short # Long purple trail, short-living
 ```
 
 To add a new airplane to the table, add an entry in `InitDB()` like:
